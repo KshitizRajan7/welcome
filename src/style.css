@@ -94,3 +94,27 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: flex-end;   /* align to right */
+  align-items: center;         /* center vertically */
+  height: 100vh;
+  padding-right: 20px;         /* small right margin */
+  box-sizing: border-box;
+}
+
+#app img {
+  max-width: 500px;   /* set fixed max size */
+  width: 100%;        /* responsive inside container */
+  height: auto;
+  border-radius: 8px; /* optional: smooth corners */
+}
